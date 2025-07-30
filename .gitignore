@@ -1,0 +1,14 @@
+# Compiled C programs (executables)
+*
+!*/
+!*.c
+!*.h
+!Makefile
+!.gitignore
+!*.md
+
+# Object files
+*.o
+
+# VS Code settings (optional)
+.vscode/
