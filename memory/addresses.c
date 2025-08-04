@@ -11,4 +11,7 @@ int main(void)
 
     // print the memory address to variable n
     printf("%p\n", p);
+
+    // dereference the pointer to get the value stored for int n
+    printf("%i\n", *p);
 }
