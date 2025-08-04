@@ -2,6 +2,14 @@
 
 Sorting algorithms are methods used to arrange data in a particular order, typically ascending or descending. They take a list of items and reorder them so that searching, analysis, and other operations become more efficient. Common sorting algorithms include selection sort, bubble sort, merge sort, insertion sort, and quick sort, each with its own approach to comparing and reordering elements. Sorting is a fundamental concept in computer science used in many applications from databases to user interfaces.
 
+## Interactive Visualizer
+
+Experience these sorting algorithms in action with our interactive visualizer:
+
+**[Launch Sorting Visualizer](https://swe-robertkibet.github.io/cs50-playground/)**
+
+Watch as each algorithm sorts arrays step-by-step, compare their performance, and gain intuitive understanding of how different sorting techniques work!
+
 ---
 
 ## Time Complexity Comparison
