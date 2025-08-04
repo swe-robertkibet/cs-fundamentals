@@ -4,6 +4,35 @@ Sorting algorithms are methods used to arrange data in a particular order, typic
 
 ---
 
+## Time Complexity Comparison
+
+| Algorithm          | Best Case  | Average Case | Worst Case | Space Complexity | Stable | In-Place |
+| ------------------ | ---------- | ------------ | ---------- | ---------------- | ------ | -------- |
+| **Selection Sort** | O(n²)      | O(n²)        | O(n²)      | O(1)             | No     | Yes      |
+| **Bubble Sort**    | O(n)       | O(n²)        | O(n²)      | O(1)             | Yes    | Yes      |
+| **Merge Sort**     | O(n log n) | O(n log n)   | O(n log n) | O(n)             | Yes    | No       |
+| **Insertion Sort** | O(n)       | O(n²)        | O(n²)      | O(1)             | Yes    | Yes      |
+| **Quick Sort**     | O(n log n) | O(n log n)   | O(n²)      | O(log n)         | No     | Yes      |
+
+### Key Terms:
+
+- **Best Case**: Performance when input is in the most favorable condition
+- **Average Case**: Expected performance across all possible inputs
+- **Worst Case**: Performance when input is in the least favorable condition
+- **Space Complexity**: Additional memory required beyond the input array
+- **Stable**: Maintains relative order of equal elements
+- **In-Place**: Sorts without requiring significant extra memory
+
+### Performance Notes:
+
+- **Selection Sort**: Always performs the same number of comparisons regardless of input order
+- **Bubble Sort**: Best case occurs when array is already sorted (with early termination optimization)
+- **Merge Sort**: Consistently O(n log n) due to its divide-and-conquer approach
+- **Insertion Sort**: Best case occurs when array is already sorted or nearly sorted
+- **Quick Sort**: Worst case occurs with poor pivot selection (e.g., always choosing smallest/largest element)
+
+---
+
 ## 1. Selection Sort
 
 ### Pseudocode
