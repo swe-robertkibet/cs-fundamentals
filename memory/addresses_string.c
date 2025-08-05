@@ -3,8 +3,9 @@
 
 int main(void)
 {
-    string s = "HI!";
+    char *s = "HI!";
 
+    printf("%s\n", s);
     printf("%p\n", s);
 
     printf("%p\n", &s[0]);
