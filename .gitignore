@@ -16,3 +16,6 @@
 
 # Images
 !*.png
+
+# Python
+!*.py
