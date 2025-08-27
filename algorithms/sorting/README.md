@@ -2,7 +2,7 @@
 
 Sorting algorithms arrange data in a specific order (ascending/descending). They are core tools in computer science, enabling efficient searching, analysis, and organization. Common algorithms include selection sort, bubble sort, merge sort, insertion sort, and quick sort.
 
-![Sorting Visualizer](images/image.png)
+![Sorting Visualizer](../../images/image.png)
 
 ---
 
@@ -11,7 +11,7 @@ Sorting algorithms arrange data in a specific order (ascending/descending). They
 Explore sorting algorithms step by step with the interactive visualizer:
 
 - **[Live Demo](https://swe-robertkibet.github.io/cs-fundamentals/)** (GitHub Pages)
-- **[Source Code](docs/index.html)** (in this repository)
+- **[Source Code](../../docs/index.html)** (in this repository)
 
 ---
 
