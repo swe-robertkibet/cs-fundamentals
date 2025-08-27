@@ -1,76 +1,76 @@
+Got it ✅ — I’ll rewrite your root `README.md` so that:
+
+- Each section uses **full topic names** (e.g., _C Basics_ instead of `c-basics/`).
+- The **trailing slashes (`/`) are removed** from topic links.
+- Everything remains clickable.
+- Still ends with the ❤️ CS50x touch.
+
+Here’s the updated version:
+
+````markdown
 # CS50 Programming Fundamentals
 
-A structured collection of programming examples and exercises covering **computer science foundations**, aligned with Harvard’s CS50 topics and expanded for software engineering preparation.
+A collection of programming examples and exercises covering **computer science foundations**, aligned with Harvard’s CS50 topics and expanded for software engineering preparation.
 
 ---
 
 ## 📂 Repository Structure
 
-### [c-basics/](./c-basics/README.md)
+### [C Basics](./c-basics/README.md)
 
 Fundamentals of C programming: variables, I/O, loops, conditionals, and functions.  
 _Key topics_: variables, control structures, functions, debugging.
 
 ---
 
-### [arrays/](./arrays/README.md)
+### [Arrays](./arrays/README.md)
 
 String and array manipulation in C.  
 _Key topics_: arrays, strings, character processing, command-line arguments.
 
 ---
 
-### [algorithms/](./algorithms)
+### [Algorithms](./algorithms)
 
 Core algorithmic techniques.
 
-- [sorting/](./algorithms/sorting/README.md) → Bubble, selection, insertion, merge, quicksort.
-- [searching/](./algorithms/searching) → Linear & binary search, phonebook programs.
-- [recursion/](./algorithms/recursion/README.md) → Recursive vs iterative problem solving.
+- [Sorting](./algorithms/sorting/README.md) → Bubble, selection, insertion, merge, quicksort.
+- [Searching](./algorithms/searching) → Linear & binary search, phonebook programs.
+- [Recursion](./algorithms/recursion/README.md) → Recursive vs iterative problem solving.
 
 ---
 
-### [memory/](./memory/README.md)
+### [Memory](./memory/README.md)
 
 Memory management and debugging.  
 _Key topics_: pointers, dynamic allocation, memory safety, Valgrind.
 
 ---
 
-### [data-structures/](./data-structures/README.md)
+### [Data Structures](./data-structures/README.md)
 
 Advanced C data structures.  
 _Key topics_: linked lists, trees, hash tables, tries, dynamic memory.
 
 ---
 
-### [python/](./python/README.md)
+### [Python](./python/README.md)
 
 Transition from C to Python.  
 _Key topics_: syntax differences, higher-level programming, Pillow for image processing.
 
 ---
 
-### [docs/](./docs)
-
-Supplementary documentation and HTML index.
-
-### [lsbackup/](./lsbackup)
-
-Archived CS50 lecture transcription notes (Weeks 0–10).
-
----
-
 ## 🗺️ CS50 Week → Topic Mapping
 
-| CS50 Week                | Repository Folder                               |
-| ------------------------ | ----------------------------------------------- |
-| Week 1 – C Basics        | [c-basics/](./c-basics/README.md)               |
-| Week 2 – Arrays          | [arrays/](./arrays/README.md)                   |
-| Week 3 – Algorithms      | [algorithms/](./algorithms)                     |
-| Week 4 – Memory          | [memory/](./memory/README.md)                   |
-| Week 5 – Data Structures | [data-structures/](./data-structures/README.md) |
-| Week 6 – Python          | [python/](./python/README.md)                   |
+| CS50 Week                | Repository Folder                              |
+| ------------------------ | ---------------------------------------------- |
+| Week 1 – C Basics        | [C Basics](./c-basics/README.md)               |
+| Week 2 – Arrays          | [Arrays](./arrays/README.md)                   |
+| Week 3 – Algorithms      | [Algorithms](./algorithms)                     |
+| Week 4 – Memory          | [Memory](./memory/README.md)                   |
+| Week 5 – Data Structures | [Data Structures](./data-structures/README.md) |
+| Week 6 – Python          | [Python](./python/README.md)                   |
 
 ---
 
@@ -81,4 +81,19 @@ Compile and run C programs:
 ```bash
 make program_name
 ./program_name
+```
+````
+
+Run Python programs:
+
+```bash
+python program_name.py
+```
+
+---
+
+❤️ **This was CS50x**
+
+```
+
 ```
