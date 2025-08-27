@@ -83,4 +83,4 @@ python program_name.py
 
 ````
 
-❤️ **This was CS50x**
+**This was CS50x ❤️**
