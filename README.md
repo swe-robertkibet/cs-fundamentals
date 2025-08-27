@@ -1,13 +1,3 @@
-Got it ✅ — I’ll rewrite your root `README.md` so that:
-
-- Each section uses **full topic names** (e.g., _C Basics_ instead of `c-basics/`).
-- The **trailing slashes (`/`) are removed** from topic links.
-- Everything remains clickable.
-- Still ends with the ❤️ CS50x touch.
-
-Here’s the updated version:
-
-````markdown
 # CS50 Programming Fundamentals
 
 A collection of programming examples and exercises covering **computer science foundations**, aligned with Harvard’s CS50 topics and expanded for software engineering preparation.
@@ -82,6 +72,7 @@ Compile and run C programs:
 make program_name
 ./program_name
 ```
+
 ````
 
 Run Python programs:
@@ -95,5 +86,4 @@ python program_name.py
 ❤️ **This was CS50x**
 
 ```
-
-```
+````
