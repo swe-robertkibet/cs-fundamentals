@@ -1,66 +1,84 @@
 # CS50 Programming Fundamentals
 
-A comprehensive collection of programming examples and exercises covering fundamental computer science concepts from Harvard's CS50 course.
+A structured collection of programming examples and exercises covering **computer science foundations**, aligned with Harvard’s CS50 topics and expanded for software engineering preparation.
 
-## Repository Structure
+---
 
-This repository is organized by topic areas rather than chronological weeks, making it easy to navigate and find specific programming concepts:
+## 📂 Repository Structure (Clickable Navigation)
 
-### 📁 **c-basics/**
-Core C programming fundamentals including variables, loops, functions, and basic I/O operations.
+### [c-basics/](./c-basics/README.md)
 
-### 📁 **arrays/**
-Array manipulation, string handling, character processing, and command-line arguments.
+Fundamentals of C programming: variables, I/O, loops, conditionals, and functions.  
+_Key topics_: variables, control structures, functions, debugging.
 
-### 📁 **algorithms/**
-- `sorting/` - Various sorting algorithms (bubble sort, selection sort, merge sort, etc.)
-- `searching/` - Search implementations and phonebook examples
-- `recursion/` - Iterative vs recursive approaches to problem solving
+---
 
-### 📁 **memory/**
-Memory management concepts including pointers, malloc/free, memory allocation, and debugging with Valgrind.
+### [arrays/](./arrays/README.md)
 
-### 📁 **data-structures/**
-Advanced data structures including linked lists, binary search trees, hash tables, and tries.
+String and array manipulation in C.  
+_Key topics_: arrays, strings, character processing, command-line arguments.
 
-### 📁 **python/**
-Python implementations demonstrating language transition and higher-level programming concepts.
+---
 
-## CS50 Week → Topic Mapping
+### [algorithms/](./algorithms)
 
-For transparency and educational context, here's how the original CS50 weekly structure maps to these topic-based folders:
+Core algorithmic techniques.
 
-- **Week 1 (C Basics)** → `c-basics/`
-- **Week 2 (Arrays)** → `arrays/`
-- **Week 3 (Algorithms)** → `algorithms/`
-- **Week 4 (Memory)** → `memory/`
-- **Week 5 (Data Structures)** → `data-structures/`
-- **Week 6 (Python)** → `python/`
+- [sorting/](./algorithms/sorting/README.md) → Bubble, selection, insertion, merge, quicksort.
+- [searching/](./algorithms/searching) → Linear & binary search, phonebook programs.
+- [recursion/](./algorithms/recursion/README.md) → Recursive vs iterative problem solving.
 
-## Additional Resources
+---
 
-- `resources/` - Original lecture transcription files
-- `docs/` - Additional documentation and guides
+### [memory/](./memory/README.md)
 
-## Skills Demonstrated
+Memory management and debugging.  
+_Key topics_: pointers, dynamic allocation, memory safety, Valgrind.
 
-- **Low-level programming** with C
-- **Memory management** and pointer manipulation
-- **Algorithm design** and complexity analysis
-- **Data structure** implementation and usage
-- **Problem decomposition** and debugging
-- **Language transition** from C to Python
+---
 
-## Usage
+### [data-structures/](./data-structures/README.md)
 
-Each folder contains working C programs that can be compiled and run. Most programs require the CS50 library for compilation.
+Advanced C data structures.  
+_Key topics_: linked lists, trees, hash tables, tries, dynamic memory.
 
-Example compilation:
+---
+
+### [python/](./python/README.md)
+
+Transition from C to Python.  
+_Key topics_: syntax differences, higher-level programming, Pillow for image processing.
+
+---
+
+### [docs/](./docs)
+
+Supplementary documentation and HTML index.
+
+### [lsbackup/](./lsbackup)
+
+Archived CS50 lecture transcription notes (Weeks 0–10).
+
+---
+
+## 🗺️ CS50 Week → Topic Mapping
+
+| CS50 Week                | Repository Folder                               |
+| ------------------------ | ----------------------------------------------- |
+| Week 1 – C Basics        | [c-basics/](./c-basics/README.md)               |
+| Week 2 – Arrays          | [arrays/](./arrays/README.md)                   |
+| Week 3 – Algorithms      | [algorithms/](./algorithms)                     |
+| Week 4 – Memory          | [memory/](./memory/README.md)                   |
+| Week 5 – Data Structures | [data-structures/](./data-structures/README.md) |
+| Week 6 – Python          | [python/](./python/README.md)                   |
+
+---
+
+## 🛠️ Usage
+
+Compile and run C programs:
+
 ```bash
 make program_name
 ./program_name
 ```
-
----
-
-*This repository represents a systematic study of computer science fundamentals through hands-on programming exercises and implementations.*
