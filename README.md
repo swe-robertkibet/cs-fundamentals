@@ -4,7 +4,7 @@ A structured collection of programming examples and exercises covering **compute
 
 ---
 
-## 📂 Repository Structure (Clickable Navigation)
+## 📂 Repository Structure
 
 ### [c-basics/](./c-basics/README.md)
 
