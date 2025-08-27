@@ -1,18 +1,21 @@
 # Sorting Algorithms
 
-Sorting algorithms are methods used to arrange data in a particular order, typically ascending or descending. They take a list of items and reorder them so that searching, analysis, and other operations become more efficient. Common sorting algorithms include selection sort, bubble sort, merge sort, insertion sort, and quick sort, each with its own approach to comparing and reordering elements. Sorting is a fundamental concept in computer science used in many applications from databases to user interfaces.
+Sorting algorithms arrange data in a specific order (ascending/descending). They are core tools in computer science, enabling efficient searching, analysis, and organization. Common algorithms include selection sort, bubble sort, merge sort, insertion sort, and quick sort.
 
-## Interactive Visualizer
-
-Experience these sorting algorithms in action with our interactive visualizer:
-
-**[Launch Sorting Visualizer](https://swe-robertkibet.github.io/cs50-playground/)**
-
-Watch as each algorithm sorts arrays step-by-step, compare their performance, and gain intuitive understanding of how different sorting techniques work!
+![Sorting Visualizer](images/image.png)
 
 ---
 
-## Time Complexity Comparison
+## 🎨 Interactive Visualizer
+
+Explore sorting algorithms step by step with the interactive visualizer:
+
+- **[Live Demo](https://swe-robertkibet.github.io/cs-fundamentals/)** (GitHub Pages)
+- **[Source Code](docs/index.html)** (in this repository)
+
+---
+
+## ⏱️ Time Complexity Comparison
 
 | Algorithm          | Best Case  | Average Case | Worst Case | Space Complexity | Stable | In-Place |
 | ------------------ | ---------- | ------------ | ---------- | ---------------- | ------ | -------- |
@@ -22,108 +25,91 @@ Watch as each algorithm sorts arrays step-by-step, compare their performance, an
 | **Insertion Sort** | O(n)       | O(n²)        | O(n²)      | O(1)             | Yes    | Yes      |
 | **Quick Sort**     | O(n log n) | O(n log n)   | O(n²)      | O(log n)         | No     | Yes      |
 
-### Key Terms:
-
-- **Best Case**: Performance when input is in the most favorable condition
-- **Average Case**: Expected performance across all possible inputs
-- **Worst Case**: Performance when input is in the least favorable condition
-- **Space Complexity**: Additional memory required beyond the input array
-- **Stable**: Maintains relative order of equal elements
-- **In-Place**: Sorts without requiring significant extra memory
-
-### Performance Notes:
-
-- **Selection Sort**: Always performs the same number of comparisons regardless of input order
-- **Bubble Sort**: Best case occurs when array is already sorted (with early termination optimization)
-- **Merge Sort**: Consistently O(n log n) due to its divide-and-conquer approach
-- **Insertion Sort**: Best case occurs when array is already sorted or nearly sorted
-- **Quick Sort**: Worst case occurs with poor pivot selection (e.g., always choosing smallest/largest element)
-
 ---
 
-## 1. Selection Sort
+## Algorithms
 
-### Pseudocode
+### 1. Selection Sort
+
+**Pseudocode**
 
 ```
+
 Repeat for each index i from 0 to n - 1:
-    Find the smallest element from index i to n - 1
-    Swap it with the element at index i
+Find the smallest element from index i to n - 1
+Swap it with the element at index i
+
 ```
 
-### Explanation
-
-Selection sort goes through the array one element at a time, finds the smallest value in the unsorted portion, and swaps it with the current element. This continues until the array is sorted. It is simple and easy to implement, but it is inefficient for large datasets because it always makes the same number of comparisons, regardless of the input order.
+**Explanation**: Finds the smallest item in the unsorted part and swaps it into place. Simple but inefficient.
 
 ---
 
-## 2. Bubble Sort
+### 2. Bubble Sort
 
-### Pseudocode
+**Pseudocode**
 
 ```
+
 Repeat for each pass through the array:
-    For each pair of adjacent elements:
-        If the first is greater than the second:
-            Swap them
-    If no swaps happened during the pass:
-        Quit early
+For each pair of adjacent elements:
+If the first > second:
+Swap
+If no swaps happened:
+Quit
+
 ```
 
-### Explanation
-
-Bubble sort compares adjacent elements and swaps them if they are out of order. With each pass, the largest unsorted element moves to its correct position at the end of the array. The process repeats until no more swaps are needed. Although inefficient for large arrays, bubble sort is simple and helps illustrate basic sorting logic.
+**Explanation**: Swaps adjacent elements until sorted. Easy to implement, slow for large arrays.
 
 ---
 
-## 3. Merge Sort
+### 3. Merge Sort
 
-### Pseudocode
+**Pseudocode**
 
 ```
-If the array has only one element:
-    Quit
+
+If array has 1 element: Quit
 Else:
-    Sort the left half of the array
-    Sort the right half of the array
-    Merge the sorted halves into one sorted array
+Sort left half
+Sort right half
+Merge halves
+
 ```
 
-### Explanation
-
-Merge sort is a divide-and-conquer algorithm. It splits the array into halves until each part has only one element. Then it merges those parts back together in sorted order. It is more efficient than selection or bubble sort for large datasets, and it performs consistently regardless of the initial order of elements. However, it requires additional memory for the merging process.
+**Explanation**: Divide-and-conquer, consistently O(n log n), requires extra memory.
 
 ---
 
-## 4. Insertion Sort
+### 4. Insertion Sort
 
-### Pseudocode
+**Pseudocode**
 
 ```
-Start from index 1 to n - 1:
-    Store the current element
-    Compare it to elements before it
-    Shift larger elements one position forward
-    Insert the stored element at the correct position
+
+For i = 1 to n - 1:
+Store current element
+Shift larger elements forward
+Insert at correct position
+
 ```
 
-### Explanation
-
-Insertion sort builds the sorted part of the array one item at a time. For each new element, it looks to the left and shifts any larger elements forward to make space, then inserts the element in its proper place. It is fast for small or nearly sorted arrays but performs poorly on large, unsorted inputs. It avoids unnecessary comparisons when the data is nearly in order.
+**Explanation**: Builds sorted list one item at a time. Fast for small or nearly sorted arrays.
 
 ---
 
-## 5. Quick Sort
+### 5. Quick Sort
 
-### Pseudocode
+**Pseudocode**
 
 ```
+
 If low < high:
-    Choose a pivot element
-    Partition the array around the pivot
-    Recursively sort the left and right partitions
+Choose pivot
+Partition array around pivot
+Recursively sort partitions
+
 ```
 
-### Explanation
-
-Quick sort is another divide-and-conquer algorithm. It chooses a pivot and partitions the array so that all elements less than the pivot go to one side and all greater ones to the other. It then recursively sorts each partition. It generally performs very well, even on large datasets, and does not require extra memory like merge sort. However, its performance can suffer if poor pivot choices are made, especially in already sorted or reversed arrays.
+**Explanation**: Divide-and-conquer with good average performance. Worst case O(n²) if pivots are poor.
