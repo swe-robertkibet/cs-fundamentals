@@ -81,10 +81,6 @@ Run Python programs:
 python program_name.py
 ```
 
-
+````
 
 ❤️ **This was CS50x**
-
-
-
-````
